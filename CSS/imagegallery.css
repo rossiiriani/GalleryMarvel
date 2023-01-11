@@ -1,4 +1,19 @@
 /* Style Utama */
+html {
+    scroll-behavior: smooth;
+  }
+html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: rgb(119, 118, 116);
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #cecece;
+    border-radius: 50px;
+  }
 
 body {
     font: 18px/36px 'Bebas Neue', 'Arial Narrow', 'Arial', Sans-serif;
